@@ -53,7 +53,7 @@ h2 {
     width: 1200px;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 370px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -84,4 +84,62 @@ figure {
 
 .centered-text {
     text-align: center;
+}
+
+.locationn-container {
+    width: 1200px;
+    height: 500px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1x9ut7b*_ga*Njg0NDY1MDQ0My4xNjYxNDIwNzQx*_ga_3LRZM6TM9L*MTY2Mzg3NTkyMS40OS4xLjE2NjM4NzY0NjIuNTUuMC4w');
+    margin: 0 auto;
+
+
+}
+
+.text-location {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.location-container {
+    width: 300px;
+    margin: 40px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+}
+
+.parent-location {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 1200px;
+    position: relative;
+    top: 100px;
+    background-color: transparent;
+}
+
+.contact {
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+}
+
+.contact-parrent {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 18px;
+
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
 }
